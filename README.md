@@ -10,11 +10,13 @@ bingo/
 
 #How to Run
 Requirements: Java 8 or higher
+```bash
 # Compile
 javac Main.java BingoCard.java BingoGame.java
 
 # Run
 java Main
+```
 
 ####Gameplay####
 1. A randomized Bingo card is generated and displayed at the start.
