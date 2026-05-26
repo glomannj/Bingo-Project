@@ -1,6 +1,6 @@
 A console-based Bingo game written in Java. The program generates a randomized 5x5 Bingo card, draws numbers one at a time, and marks matches on the card. This program will loop until a Bingo a Bingo is achieved then displays the winning line.
 
-#Project Structure
+# Project Structure
 ```
 bingo/
 ├── Main.java         # Entry point; initializes the card and starts the game
@@ -18,7 +18,7 @@ javac Main.java BingoCard.java BingoGame.java
 java Main
 ```
 
-####Gameplay####
+# Gameplay
 1. A randomized Bingo card is generated and displayed at the start.
 2. Press Enter to draw a number each turn.
 3. Drawn numbers are displayed with their BINGO columns label (e.g. B12, N34).
@@ -26,7 +26,7 @@ java Main
 5. The game continues until a row, column, or diagonal is fully marked.
 6. When a Bingo is achieved, the winning line is highlighted on the final board.
 
-####Sample Output####
+# Sample Output
 Welcome to Bingo!
 
 Here is your Bingo Card. Good Luck!
@@ -45,7 +45,7 @@ Your number was marked
 
 BINGO!!! Congrats you won!
 
-####Class Overview####
+# Class Overview
 BingoCard
 - Generates a valid 5x5 card with unique numbers in BINGO column ranges:
   - B:1-15 | I:16-30 | N:31-45 | G:46-60 | O:61-75
@@ -60,16 +60,16 @@ BingoGame
 Main
 - Creates a BingoCard and BingoGame, displays the initial card, and starts the game loop.
 
-####Design Notes####
+# Design Notes
 - Marked numbers are stored as 0  in the 2D array for simple win-condition checking.
 - ArrayList<int[]> is used to track winning positions for flexible line display.
 - Win detection checks all rows, columns, and both diagonals each turn.
 
-####Potential Improvements####
+# Potential Improvements
 - Display multiple Bingo cards side by side.
 - Add color-coded output for marked numbers.
 - Allow players to choose an emoji marker.
 - Track and display all previously called numbers.
 
-####Author####
+# Author
 Nathan Gloman - CS 122, Module 5
