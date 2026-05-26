@@ -8,7 +8,7 @@ bingo/
 └── BingoGame.java    # Handles game logic, number drawing, and win detection
 ```
 
-#How to Run
+# How to Run
 Requirements: Java 8 or higher
 ```bash
 # Compile
