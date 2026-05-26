@@ -1,10 +1,12 @@
 A console-based Bingo game written in Java. The program generates a randomized 5x5 Bingo card, draws numbers one at a time, and marks matches on the card. This program will loop until a Bingo a Bingo is achieved then displays the winning line.
 
 #Project Structure
+```
 bingo/
 ├── Main.java         # Entry point; initializes the card and starts the game
 ├── BingoCard.java    # Represents and manages the 5×5 Bingo card
 └── BingoGame.java    # Handles game logic, number drawing, and win detection
+```
 
 #How to Run
 Requirements: Java 8 or higher
